@@ -79,6 +79,9 @@
 * {
 	box-sizing: border-box;
 }
+a:link, a:active, a:visited { color: #343a40; text-decoration:none; }
+ 
+a:hover { color:#000; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear; }
 html, body {
 	margin: 0;
   width: 100%;
